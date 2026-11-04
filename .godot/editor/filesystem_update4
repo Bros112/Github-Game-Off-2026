@@ -1,3 +1,8 @@
 res://scenes/world.tscn
 res://scenes/player.tscn
 res://scenes/tile.tscn
+res://scenes/world.gd
+res://scenes/gearingUI.tscn
+res://scenes/shaft.tscn
+res://scenes/gear.tscn
+res://scenes/gearing_ui.gd

@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://cm30nrjt47uji"]
+
+[ext_resource type="Script" uid="uid://dqs88vc3qp6co" path="res://scenes/gearing_ui.gd" id="1_44pjv"]
+
+[node name="GearingUI" type="Node2D" unique_id=1222532964]
+script = ExtResource("1_44pjv")
