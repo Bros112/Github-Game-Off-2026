@@ -1,6 +1,12 @@
 [gd_scene format=3 uid="uid://cm30nrjt47uji"]
 
 [ext_resource type="Script" uid="uid://dqs88vc3qp6co" path="res://scenes/gearing_ui.gd" id="1_44pjv"]
+[ext_resource type="PackedScene" uid="uid://bk1qm86earm5v" path="res://scenes/shaft.tscn" id="2_r8hvk"]
+[ext_resource type="PackedScene" uid="uid://j5yo12dn7vnv" path="res://scenes/gear.tscn" id="3_3bodv"]
 
-[node name="GearingUI" type="Node2D" unique_id=1222532964]
+[node name="GearingUI" type="Control" unique_id=194206248]
+layout_mode = 3
+anchors_preset = 0
 script = ExtResource("1_44pjv")
+shaftScene = ExtResource("2_r8hvk")
+gearScene = ExtResource("3_3bodv")

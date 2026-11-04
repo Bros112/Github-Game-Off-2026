@@ -1,3 +1,23 @@
 [gd_scene format=3 uid="uid://bk1qm86earm5v"]
 
-[node name="Shaft" type="Node2D" unique_id=949820093]
+[ext_resource type="Script" uid="uid://wcousbbyq48j" path="res://scenes/shaft.gd" id="1_hk0ro"]
+[ext_resource type="Texture2D" uid="uid://cskg6kwhdr43l" path="res://images/shaft.png" id="2_k577w"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xadyu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_k577w")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Shaft" type="Control" unique_id=1572227394]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_hk0ro")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2130861500]
+sprite_frames = SubResource("SpriteFrames_xadyu")

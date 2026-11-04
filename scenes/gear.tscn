@@ -1,3 +1,24 @@
 [gd_scene format=3 uid="uid://j5yo12dn7vnv"]
 
-[node name="Gear" type="Node2D" unique_id=1635225311]
+[ext_resource type="Script" uid="uid://bxeutli0evle3" path="res://scenes/gear.gd" id="1_btfrt"]
+[ext_resource type="Texture2D" uid="uid://cyxk8gdqalvyj" path="res://images/gear.png" id="2_7j0fb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xadyu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_7j0fb")
+}],
+"loop": 1,
+"name": &"Gear",
+"speed": 5.0
+}]
+
+[node name="Gear" type="Control" unique_id=2110766629]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_btfrt")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1723569231]
+sprite_frames = SubResource("SpriteFrames_xadyu")
+animation = &"Gear"

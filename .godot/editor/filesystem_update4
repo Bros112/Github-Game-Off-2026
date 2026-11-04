@@ -6,3 +6,6 @@ res://scenes/gearingUI.tscn
 res://scenes/shaft.tscn
 res://scenes/gear.tscn
 res://scenes/gearing_ui.gd
+res://scenes/gear.gd
+res://scenes/shaft.gd
+res://global.gd

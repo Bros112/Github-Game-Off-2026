@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Game jam idea prototype"
-run/main_scene="uid://b2tydqapc5fmy"
+run/main_scene="uid://cm30nrjt47uji"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*uid://dth4o5qhohnce"
 
 [display]
 
